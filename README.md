@@ -8,7 +8,6 @@ This project performs **sentiment analysis** on Flipkart product reviews to clas
 
 We leverage **DistilBERT**, a lightweight and efficient transformer model, to understand natural language and detect the emotional tone of customer feedback.
 
----
 
 ## 🎯 Objective
 The goal is to help **e-commerce platforms**, **sellers**, and **analysts** gain insights into:
@@ -19,12 +18,11 @@ The goal is to help **e-commerce platforms**, **sellers**, and **analysts** gain
 ---
 
 ## 📊 Dataset
-- **Source:** Flipkart product reviews dataset (CSV format)
+- **Source:** Provided Flipkart product reviews dataset (`flipkart_reviews.csv`)
 - **Features:**
   - `Review Text` — The actual customer review
   - `Sentiment` — Labeled sentiment (Positive, Negative, Neutral)
 
----
 
 ## 🧠 Model
 We use the **DistilBERT** model from Hugging Face Transformers, fine-tuned for text classification.
@@ -34,7 +32,6 @@ We use the **DistilBERT** model from Hugging Face Transformers, fine-tuned for t
 - Faster inference with minimal performance loss
 - Great for real-world applications
 
----
 
 ## ⚙️ Workflow
 1. **Data Preprocessing** 🧹  
@@ -49,7 +46,6 @@ We use the **DistilBERT** model from Hugging Face Transformers, fine-tuned for t
 3. **Prediction** 📈  
    - Classify new reviews into Positive, Negative, or Neutral  
 
----
 
 ## 🚀 Installation & Usage
 ```bash
@@ -62,3 +58,4 @@ pip install -r requirements.txt
 
 # Run the script
 python sentiment_analysis.py
+
